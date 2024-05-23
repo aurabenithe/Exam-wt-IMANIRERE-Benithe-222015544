@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 120%;
+            background: #F8F8FF;
+        }
+        
+        .header {
+            width: 90%;
+            margin: 50px auto 0px;
+            color: white;
+            background: rgb(0, 140, 190);
+            text-align: center;
+            border: 1px solid #B0C4DE;
+            border-bottom: none;
+            border-radius: 10px 10px 0px 0px;
+            padding: 20px;
+        }
+        
+        .head {
+            width: 90%;
+            color: rgb(13, 12, 12);
+            background: rgb(4, 127, 171);
+            text-align: center;
+            border: 2px solid #B0C4DE;
+            border-bottom: none;
+            border-radius: 10px 10px 0px 0px;
+            padding: 20px;
+            height: 30px;
+            font-size: 12px;
+        }
+        
+        form,
+        .content {
+            width: 40%;
+            margin: 0px auto;
+            padding: 20px;
+            border: 1px solid #B0C4DE;
+            background: white;
+            border-radius: 0px 0px 10px 10px;
+        }
+        
+        .input-group {
+            margin: 10px 0px 10px 0px;
+        }
+        
+        .input-group label {
+            display: block;
+            text-align: left;
+            margin: 3px;
+        }
+        
+        .input-group input {
+            height: 30px;
+            width: 50%;
+            padding: 5px 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+        
+        #user_type {
+            height: 40px;
+            width: 98%;
+            padding: 5px 10px;
+            background: white;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+        
+        .btn {
+            padding: 10px;
+            font-size: 15px;
+            color: white;
+            background: rgba(207, 59, 0, 0.945);
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .error {
+            width: 92%;
+            margin: 0px auto;
+            padding: 10px;
+            border: 1px solid #a94442;
+            color: #a94442;
+            background: #f2dede;
+            border-radius: 5px;
+            text-align: left;
+        }
+        
+        .success {
+            color: #3c763d;
+            background: #dff0d8;
+            border: 1px solid #3c763d;
+            margin-bottom: 20px;
+        }
+        
+        .profile_info img {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            float: left;
+        }
+        
+        .profile_info div {
+            display: inline-block;
+            margin: 5px;
+        }
+        
+        .profile_info:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        
+        .button {
+            width: 10%;
+            color: white;
+            background: rgb(11, 77, 101);
+            text-align: center;
+            border: 2px solid #B0C4DE;
+            border-bottom: none;
+            border-top-left-radius: 2%;
+            border-top-right-radius: 2%;
+            border-bottom-left-radius: 2%;
+            border-bottom-right-radius: 2%;
+            padding: 20px;
+            height: 10px;
+            font-size: 12px;
+        }
+    </style>
+
+
+
+</head>
+
+
+
+
+<body>
+    <center>
+        <form action="dbconn.php" method="post">
+            <center>
+                <div class='header'>
+                    <h1> LOGIN FORM</h1>
+                </div>
+                <div class='input-group'>
+                    <label for="username">Id:</label>
+                    <input type="number" id="id" name="id" required>
+                </div>
+                <div class='input-group'>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class='input-group'>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class='button'>
+                    <input type="submit" value="Login">
+                </div>
+                <div class='head'>
+                    <h1>
+                        <font color="white"><a href="createaccount.html" target="main-frame">CREATE ACCOUNT</a></font>
+                    </h1>
+                </div>
+
+        </form>
+        </center>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(49, 94, 185);
+    margin: 5%;
+}
+
+h1 {
+    color: brown;
+    margin: 5%;
+    font-family: 'Lucida Sans';
+    font-size: large;
+}
+
+table {
+    background-color: aqua;
+    font-family: Verdana;
+    font-weight: 20;
+    border: 2;
+    margin: 5%;
+}
+
+form {
+    background-color: skyblue;
+    border: 2;
+    margin: 5%;
+}
+
+p {
+    color: blueviolet;
+    font-family: Arial;
+    font-size: medium;
+    margin: 5%;
+}
